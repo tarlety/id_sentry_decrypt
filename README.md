@@ -14,7 +14,7 @@
 - To deploy: ```npm run package```
 - Quick start for produciton:
   ```
-  $ ./id-sentry-decrypt.AppImage --node 000-000-00 --csvpath ./decrypted.csv
+  $ ./id-sentry-decrypt.AppImage . --node 000-000-00 --csv ./data.csv
   ```
 
 ## How to unhash hashed scan_value manually
