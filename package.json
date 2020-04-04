@@ -3,19 +3,39 @@
   "productName": "ElectronIDSentry",
   "version": "1.0.0",
   "description": "Tool to decrypt data from ElectronIDStentry",
-  "repository": "",
+  "repository": "https://github.com/tarlety/id_sentry_decrypt",
+  "author": "tarlety <tarlety@gmail.com>",
   "main": "src/main.js",
+  "build": {
+    "appId": "com.electronidsentry_decrypt.app",
+    "productName": "ElectronIDSentry",
+    "copyright": "Copyright © year ${author}",
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    },
+    "win": {
+      "target": [
+        "portable",
+        "zip"
+      ]
+    }
+  },
   "scripts": {
     "start": "electron .",
+    "package": "npm-run-all package:*",
     "package:linux": "electron-builder build --linux",
     "package:win": "electron-builder build --win"
   },
   "license": "MIT",
   "devDependencies": {
-    "electron-builder": "^22.4.1"
+    "electron": "^8.2.0",
+    "electron-builder": "^22.4.1",
+    "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "electron": "^8.2.0",
+    "command-line-args": "^5.1.1",
     "electron-store": "^5.1.1"
   }
 }
