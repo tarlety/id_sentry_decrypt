@@ -14,7 +14,8 @@
 - To deploy: ```npm run package```
 - Quick start for produciton:
   ```
-  $ ./id-sentry-decrypt.AppImage . --node 000-000-00 --csv ./data.csv
+  $ set /p EIS_KEY=Input Encryption Key
+  $ ./id-sentry-decrypt.AppImage . --node 000-000-00 --at_import_xlsx ./import.xlsx
   ```
 
 ## How to unhash hashed scan_value manually
