@@ -63,6 +63,7 @@ try {
       overall_records = [...overall_records, ...records];
     } catch (e) {
       console.log('processing encrypted error, please check your EIS_KEY.');
+      process.exit(1);
     }
   });
 
@@ -94,18 +95,19 @@ try {
     }
 
     try {
-      const csv = json2csv(overall_records);
-      const csv_pathname =
-        options.csv ||
-        path.join(path.parse(app.getPath('exe')).dir, `${name_dec}.csv`);
-      console.log(`decrypted to csv: ${csv_pathname}`);
-      fs.writeFileSync(csv_pathname, csv, { encoding: 'utf8', flag: 'w' });
+      if (options.csv) {
+        const csv = json2csv(overall_records);
+        const csv_pathname = options.csv;
+        console.log(`decrypted to csv: ${csv_pathname}`);
+        fs.writeFileSync(csv_pathname, csv, { encoding: 'utf8', flag: 'w' });
+      }
     } catch (e) {
       console.log(`converting csv error: ${e}`);
     }
   }
 } catch (e) {
   console.log(`General app error: ${e}`);
+  process.exit(1);
 }
 
 app.quit();
