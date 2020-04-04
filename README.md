@@ -1,8 +1,7 @@
 ## Features
 
 - Decrypt stores which is encrypted at app.getPath('userData').
-- Decrypt and convert to csv file under dir of app.getPath('exe
-- Support the "at" import xlsx format.
+- Decrypt and convert to csv and the "at" import xlsx format.
 
 ## Getting started
 
