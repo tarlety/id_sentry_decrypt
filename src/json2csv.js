@@ -15,14 +15,14 @@ function json2csv(items) {
 
 function json2at_import_csv(items) {
   const replacer = (key, value) => (value === null ? '' : value); // specify how you want to handle null values here
-  const header = ['scan_value', 'local_date', '', '', ''];
+  const header = ['scan_value', 'json_date', '', '', ''];
   let csv = items.map((row) =>
     header
       .map((fieldName) => {
         switch (fieldName) {
           case 'scan_value':
             return JSON.stringify(row[fieldName], replacer);
-          case 'local_date':
+          case 'json_date':
             const dt = new Date(row[fieldName]);
             return `${dt.getFullYear()}${(dt.getMonth() + 1)
               .toString()
