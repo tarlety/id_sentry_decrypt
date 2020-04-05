@@ -1,3 +1,15 @@
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=bugs)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=code_smells)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=coverage)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=ncloc)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=alert_status)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=security_rating)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=sqale_index)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=tarlety_id_sentry_decrypt&branch=master&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=tarlety_id_sentry_decrypt)
+
 ## Features
 
 - Decrypt stores which is encrypted at app.getPath('userData').
