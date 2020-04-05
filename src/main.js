@@ -68,7 +68,6 @@ try {
   });
 
   if (overall_records.length > 0) {
-    const name_dec = `decrypted_${node_id}`;
     try {
       if (options.at_import_xlsx) {
         const csv = json2at_import_csv(overall_records);
