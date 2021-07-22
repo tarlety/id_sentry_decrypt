@@ -38,6 +38,6 @@
     "command-line-args": "^5.1.1",
     "csv-parse": "^4.8.8",
     "electron-store": "^5.1.1",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.17.0"
   }
 }
