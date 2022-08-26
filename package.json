@@ -37,7 +37,7 @@
   "dependencies": {
     "command-line-args": "^5.1.1",
     "csv-parse": "^4.8.8",
-    "electron-store": "^5.1.1",
+    "electron-store": "^5.2.0",
     "xlsx": "^0.15.6"
   }
 }
